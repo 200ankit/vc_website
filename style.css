@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .video-container {
+    display: none;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .local-video, .remote-video {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin: 10px;
+  }
+  
+  
+  
